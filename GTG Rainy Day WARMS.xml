@@ -1,0 +1,51 @@
+<effectgroup description="" id="GTG Rainy Day WARMS" parentIn="0">
+ <description></description>
+ <effect id="avfilter.exposure">
+  <property name="av.black">0=0</property>
+  <property name="av.exposure">0=-0.2</property>
+ </effect>
+ <effect id="hslprimaries">
+  <property name="l_scale_magenta">0=100</property>
+  <property name="l_scale_green">0=100</property>
+  <property name="l_scale_red">0=100</property>
+  <property name="h_shift_red">0=-7.488</property>
+  <property name="l_scale_blue">0=100</property>
+  <property name="h_shift_yellow">0=-7.92</property>
+  <property name="l_scale_yellow">0=100</property>
+  <property name="overlap">0=100</property>
+  <property name="h_shift_blue">0=0</property>
+  <property name="s_scale_cyan">0=100</property>
+  <property name="h_shift_magenta">0=0</property>
+  <property name="h_shift_cyan">0=0</property>
+  <property name="s_scale_magenta">0=100</property>
+  <property name="l_scale_cyan">0=100</property>
+  <property name="s_scale_red">0=190</property>
+  <property name="s_scale_yellow">0=100</property>
+  <property name="s_scale_green">0=75</property>
+  <property name="h_shift_green">0=25.3</property>
+  <property name="s_scale_blue">0=100</property>
+ </effect>
+ <effect id="lift_gamma_gain">
+  <property name="gain_b">0=0.892409</property>
+  <property name="gain_g">0=0.968765</property>
+  <property name="gamma_b">0=1</property>
+  <property name="gamma_r">0=1</property>
+  <property name="gamma_g">0=1</property>
+  <property name="lift_b">0=1.5e-05</property>
+  <property name="gain_r">0=0.775708</property>
+  <property name="lift_g">0=1.5e-05</property>
+  <property name="lift_r">0=1.5e-05</property>
+ </effect>
+ <effect id="frei0r.saturat0r">
+  <property name="Saturation">0=0.102</property>
+ </effect>
+ <effect id="avfilter.colortemperature">
+  <property name="av.pl">0=0</property>
+  <property name="av.saturation">0=0.5</property>
+  <property name="av.mix">0=1</property>
+  <property name="av.temperature">0=4500</property>
+ </effect>
+ <effect id="frei0r.saturat0r">
+  <property name="Saturation">0=0.088</property>
+ </effect>
+</effectgroup>

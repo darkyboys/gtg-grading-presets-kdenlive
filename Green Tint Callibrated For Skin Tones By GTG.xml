@@ -1,0 +1,49 @@
+<effectgroup description="" id="Green Tint Callibrated For Skin Tones By GTG" parentIn="0">
+ <description></description>
+ <effect id="frei0r.contrast0r">
+  <property name="Contrast">0=0.312</property>
+ </effect>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0</property>
+  <property name="Channel">0.71</property>
+  <property name="4">1</property>
+  <property name="9">0.426357</property>
+  <property name="14">0</property>
+  <property name="3">0.3</property>
+  <property name="6">0</property>
+  <property name="7">0</property>
+  <property name="12">0</property>
+  <property name="8">0.5</property>
+  <property name="13">0</property>
+  <property name="kdenlive:curve">0/0;0.5/0.426357;1/1;</property>
+  <property name="10">1</property>
+  <property name="11">1</property>
+ </effect>
+ <effect id="avfilter.lut3d">
+  <property name="av.interp">tetrahedral</property>
+  <property name="av.file">/usr/share/kdenlive/luts/GREEN_TINT.cube</property>
+ </effect>
+ <effect id="hslprimaries">
+  <property name="l_scale_magenta">0=135</property>
+  <property name="l_scale_green">0=130</property>
+  <property name="l_scale_red">0=100</property>
+  <property name="h_shift_red">0=0</property>
+  <property name="l_scale_blue">0=147.5</property>
+  <property name="h_shift_yellow">0=0</property>
+  <property name="l_scale_yellow">0=100</property>
+  <property name="overlap">0=100</property>
+  <property name="h_shift_blue">0=0</property>
+  <property name="s_scale_cyan">0=20</property>
+  <property name="h_shift_magenta">0=0</property>
+  <property name="h_shift_cyan">0=0</property>
+  <property name="s_scale_magenta">0=30</property>
+  <property name="l_scale_cyan">0=127.5</property>
+  <property name="s_scale_red">0=100</property>
+  <property name="s_scale_yellow">0=100</property>
+  <property name="s_scale_green">0=30</property>
+  <property name="h_shift_green">0=0</property>
+  <property name="s_scale_blue">0=25</property>
+ </effect>
+</effectgroup>
