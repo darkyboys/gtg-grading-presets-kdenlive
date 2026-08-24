@@ -1,0 +1,84 @@
+<effectgroup description="" id="GTG Independent SKIN SEPARATOR V2" parentIn="0">
+ <description></description>
+ <effect id="avfilter.exposure">
+  <property name="av.black">0=0</property>
+  <property name="av.exposure">0=-0.166667</property>
+ </effect>
+ <effect id="frei0r.saturat0r">
+  <property name="Saturation">0=0.191</property>
+ </effect>
+ <effect id="hslprimaries">
+  <property name="l_scale_magenta">0=100</property>
+  <property name="l_scale_green">0=100</property>
+  <property name="l_scale_red">0=100</property>
+  <property name="h_shift_red">0=-7.92</property>
+  <property name="l_scale_blue">0=100</property>
+  <property name="h_shift_yellow">0=13.824</property>
+  <property name="l_scale_yellow">0=100</property>
+  <property name="overlap">0=100</property>
+  <property name="h_shift_blue">0=0</property>
+  <property name="s_scale_cyan">0=60</property>
+  <property name="h_shift_magenta">0=0</property>
+  <property name="h_shift_cyan">0=0</property>
+  <property name="s_scale_magenta">0=57.5</property>
+  <property name="l_scale_cyan">0=100</property>
+  <property name="s_scale_red">0=257.5</property>
+  <property name="s_scale_yellow">0=70</property>
+  <property name="s_scale_green">0=62.5</property>
+  <property name="h_shift_green">0=66.096</property>
+  <property name="s_scale_blue">0=65</property>
+ </effect>
+ <effect id="lift_gamma_gain">
+  <property name="gain_b">0=0.973526</property>
+  <property name="gain_g">0=1.00002</property>
+  <property name="gamma_b">0=1.00002</property>
+  <property name="gamma_r">0=0.884627</property>
+  <property name="gamma_g">0=0.984237</property>
+  <property name="lift_b">0=-0.016007</property>
+  <property name="gain_r">0=0.893935</property>
+  <property name="lift_g">0=1.5e-05</property>
+  <property name="lift_r">0=-0.122148</property>
+ </effect>
+ <effect id="hslprimaries">
+  <property name="l_scale_magenta">0=100</property>
+  <property name="l_scale_green">0=100</property>
+  <property name="l_scale_red">0=100</property>
+  <property name="h_shift_red">0=0</property>
+  <property name="l_scale_blue">0=100</property>
+  <property name="h_shift_yellow">0=0</property>
+  <property name="l_scale_yellow">0=100</property>
+  <property name="overlap">0=100</property>
+  <property name="h_shift_blue">0=0</property>
+  <property name="s_scale_cyan">0=100</property>
+  <property name="h_shift_magenta">0=0</property>
+  <property name="h_shift_cyan">0=0</property>
+  <property name="s_scale_magenta">0=100</property>
+  <property name="l_scale_cyan">0=100</property>
+  <property name="s_scale_red">0=65</property>
+  <property name="s_scale_yellow">0=65</property>
+  <property name="s_scale_green">0=100</property>
+  <property name="h_shift_green">0=0</property>
+  <property name="s_scale_blue">0=100</property>
+ </effect>
+ <effect id="frei0r.saturat0r">
+  <property name="Saturation">0=0.089</property>
+ </effect>
+ <effect id="frei0r.curves">
+  <property name="2">0.3</property>
+  <property name="1">0</property>
+  <property name="15">0</property>
+  <property name="Channel">0.5</property>
+  <property name="4">1</property>
+  <property name="9">0.465116</property>
+  <property name="14">0</property>
+  <property name="3">0.3</property>
+  <property name="6">0</property>
+  <property name="7">0</property>
+  <property name="12">0</property>
+  <property name="8">0.554054</property>
+  <property name="13">0</property>
+  <property name="kdenlive:curve">0/0;0.554054/0.465116;1/1;</property>
+  <property name="10">1</property>
+  <property name="11">1</property>
+ </effect>
+</effectgroup>
