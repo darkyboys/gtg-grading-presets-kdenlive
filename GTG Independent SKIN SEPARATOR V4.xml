@@ -1,4 +1,4 @@
-<effectgroup description="" id="GTG Independent SKIN SEPARATOR V2" parentIn="0">
+<effectgroup description="" id="GTG Independent SKIN SEPARATOR V4" parentIn="0">
  <description></description>
  <effect id="avfilter.exposure">
   <property name="av.black">0=0</property>
